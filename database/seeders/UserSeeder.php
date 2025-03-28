@@ -16,8 +16,8 @@ class UserSeeder extends Seeder
     {
         User::factory()->create([
             'name' => 'Qanet',
-            'phone' => '667 678 646',
-            'location' => 'puente genil',
+            'phone_number' => '667 678 646',
+            'address' => 'puente genil',
             'role' => 'admin',
             'email' => 'admin@gmail.com',
             'email_verified_at' => now(),
