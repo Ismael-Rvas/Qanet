@@ -14,7 +14,7 @@
 
     @include('components.layouts.partials.navbar')
 
-    <main class="container mx-auto py-10">
+    <main class="overflow-hidden">
         @yield('content')
     </main>
 
