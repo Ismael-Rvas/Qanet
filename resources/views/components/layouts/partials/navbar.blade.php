@@ -25,48 +25,33 @@
             </button>
         </div>
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+            <ul
+                class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                 <li>
                     <a href="{{ route('home') }}"
-                        class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'home' ? 'text-blue-700' : '' }}">
+                        class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'home' ? 'text-blue-950 font-bold' : '' }}">
                         Inicio
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('nosotros') }}"
-                        class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'nosotros' ? 'text-blue-700' : '' }}">
+                        class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'nosotros' ? 'text-blue-950 font-bold' : '' }}">
                         Nosotros
                     </a>
                 </li>
                 <li>
-                    <button id="dropdownServiciosLink" data-dropdown-toggle="dropdownServicios"
-                        class="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
-                        <a href="{{ route('servicios') }}" class="{{ Route::currentRouteName() === 'servicios' ? 'text-blue-700' : '' }}">
-                            Servicios
-                        </a>
-                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
-                    <div id="dropdownServicios" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44">
-                        <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownServiciosLink">
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Servicio1</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Servicio2</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Servicio3</a></li>
-                            <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Servicio4</a></li>
-                        </ul>
-                    </div>
-                </li>
+                    <a href="{{ route('servicios') }}"
+                        class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'servicios' ? 'text-blue-950 font-bold' : '' }}">
+                        Servicios
+                    </a>
                 <li>
                     <a href="{{ route('contacto') }}"
-                        class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'contacto' ? 'text-blue-700' : '' }}">
+                        class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'contacto' ? 'text-blue-950 font-bold' : '' }}">
                         Contacto
                     </a>
                 </li>
             </ul>
-            
+
         </div>
     </div>
 </nav>
