@@ -10,7 +10,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-cover bg-center bg-fixed bg-no-repeat text-gray-900" style="background-image: url('{{ asset('images/fondoWeb.jpg') }}');">
 
     @include('components.layouts.partials.navbar')
 
