@@ -68,17 +68,37 @@
         </div>
     </section>
 
-    <section class="w-full py-16 bg-gradient-to-b from-white  via-slate-100 to-white">
-        <div class="max-w-6xl mx-auto px-6">
+    <section class="w-full py-16 bg-gradient-to-b from-white  via-slate-100 to-transparent">
+        <div class="max-w-6xl mx-auto px-6 pb-24">
             <span class="text-blue-300 text-xs font-semibold">EXCELENCIA Y CALIDAD EN CADA SOLUCIÓN</span>
             <h2 class="text-3xl font-bold text-blue-950 text-start mb-12">Nuestros Servicios</h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <x-service-card/>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
+                    image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
+                <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
+                    image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
+                <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
+                    image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
+                <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
+                    image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
+                <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
+                    image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
+                <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
+                    image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
             </div>
         </div>
     </section>
 
+
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <span class="text-blue-300 text-xs font-semibold">OPINIONES</span>
+            <h2 class="text-3xl font-bold text-blue-950 text-start mb-12">Lo que dicen de nosotros</h2>
+
+            <h4>OPINIONES SACAR DE API DE GOOGLE</h4>
+        </div>
+    </section>
 
 
 </div>
