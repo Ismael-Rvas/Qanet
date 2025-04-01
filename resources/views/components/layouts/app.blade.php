@@ -14,7 +14,7 @@
 
     @include('components.layouts.partials.navbar')
 
-    <main class="overflow-hidden ">
+    <main class="overflow-x-hidden pt-28 md:pt-44">
         @yield('content')
     </main>
 
