@@ -1,29 +1,69 @@
-<div>
-    <h1 class="mt-36 text-2xl font-medium text-gray-900">Contacto</h1>
-    <form>
-        <div class="mb-4">
-            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Nombre:</label>
-            <input type="text" id="name" name="name"
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                required>
+<div class="min-h-screen w-screen flex flex-col items-center justify-center ">
+    <section class="flex flex-col md:flex-row items-center p-6 md:p-12 max-w-6xl w-full">
+        <div class="w-full md:w-1/2 md:pr-8">
+            <x-api-mapa />
         </div>
-        <div class="mb-4">
-            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Correo Electrónico:</label>
-            <input type="email" id="email" name="email"
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                required>
+    </section>
+
+    <section class="w-full h-full py-36 bg-white">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-6">
+        
+           
+            <div>
+                <h2 class="text-5xl font-bold text-blue-950 mb-4">Evolucionando <br> Contigo</h2>
+                <p class="text-blue-950 mb-6">
+                    Nuestra misión es ayudarte a optimizar tus procesos empresariales y mejorar la toma de decisiones con tecnología de vanguardia.
+                </p>
+                <p class="text-blue-950 mb-6">
+                    Ponte en contacto con nosotros para descubrir cómo podemos potenciar tu empresa con nuestras soluciones personalizadas.
+                </p>
+                
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <span class="text-blue-800"><i class="fas fa-map-marker-alt"></i></span>
+                        <p class="text-blue-950">Av. de la Estación, 25, Bajo, 14500 Puente Genil, Córdoba</p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-blue-800"><i class="fas fa-clock"></i></span>
+                        <p class="text-blue-950">
+                            <strong>Horario:</strong>
+                            <br>Lunes a Viernes: 9:00–14:00, 16:00–19:00 
+                            <br>Sábado y Domingo: Cerrado
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-blue-800"><i class="fas fa-envelope"></i></span>
+                        <a href="mailto:contacto@tuempresa.com" class="text-blue-800 hover:underline">email@gmail.com</a>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <button class="bg-blue-600 text-white font-semibold px-4 py-2 rounded flex items-center hover:bg-blue-700">
+                            <i class="fas fa-phone-alt mr-2"></i> 957 60 04 34
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="bg-white p-6 shadow-md rounded-lg border border-blue-800">
+                <h3 class="text-2xl font-semibold text-blue-950 mb-4">Envíanos un Mensaje</h3>
+                <form action="#" method="POST" class="space-y-4">
+                    <div class="space-y-4">
+                        <input type="text" placeholder="Nombre (*)" class="border border-blue-800 p-2 rounded w-full text-blue-950">
+                        <input type="email" placeholder="Email (*)" class="border border-blue-800 p-2 rounded w-full text-blue-950">
+                        <input type="text" placeholder="Teléfono (*)" class="border border-blue-800 p-2 rounded w-full text-blue-950">
+                    </div>
+                    <input type="text" placeholder="Asunto (*)" class="border border-blue-800 p-2 rounded w-full text-blue-950">
+                    <textarea placeholder="Mensaje (*)" class="border border-blue-800 p-2 rounded w-full h-32 text-blue-950"></textarea>
+                    <div class="flex items-center space-x-2">
+                        <input type="checkbox" id="privacy" class="w-4 h-4">
+                        <label for="privacy" class="text-blue-950 text-sm">
+                            He leído y acepto la <a href="#" class="text-blue-800 underline">Política de Privacidad</a>.
+                        </label>
+                    </div>
+                    <button class="bg-blue-600 text-white font-semibold px-6 py-2 rounded hover:bg-blue-700 w-full">
+                        ENVIAR
+                    </button>
+                </form>
+            </div>
         </div>
-        <div class="mb-4">
-            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Mensaje:</label>
-            <textarea id="message" name="message" rows="4"
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                required></textarea>
-        </div>
-        <div class="flex items-center justify-between">
-            <button type="submit"
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                Enviar
-            </button>
-        </div>
-    </form>
+    </section>
 </div>

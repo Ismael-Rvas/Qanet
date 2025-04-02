@@ -6,18 +6,7 @@
                     <img src="{{ asset('images/LogoQanet.png') }}" class="h-36 me-3" alt="Qanet Logo" />
 
                 </a>
-                {{-- <div class="flex items-center mb-2">
-                    <i>
 
-                        <span class="text-xs text-slate-300 ms-2">+34 957 600 434</span>
-                    </i>
-
-                </div>
-                <div class="flex items-center">
-                    <i>
-                        <span class="text-xs text-slate-300 ms-2">+34 957 600 434</span>
-                    </i>
-                </div> --}}
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
@@ -29,9 +18,9 @@
                         <li class="mb-4">
                             <a href="{{ route('servicios') }}" class="hover:underline">Servicios</a>
                         </li>
-                        {{-- <li class="mb-4">
+                        <li class="mb-4">
                           <a href="{{ route('clientes') }}" class="hover:underline">Clientes</a>
-                      </li> --}}
+                      </li>
                         <li class="mb-4">
                             <a href="{{ route('contacto') }}" class="hover:underline">Contacto</a>
                         </li>

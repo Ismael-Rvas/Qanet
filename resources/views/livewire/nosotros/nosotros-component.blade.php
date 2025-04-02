@@ -2,7 +2,7 @@
     <section class="flex flex-col md:flex-row items-center p-6 md:p-12 max-w-6xl w-full">
         <div class="w-full md:w-1/2 md:pr-8 text-center md:text-left">
             <h1 class="text-3xl md:text-6xl font-bold text-blue-950 leading-tight">
-                Sobre Nosotros
+                Nuestro equipo
             </h1>
             <p class="mt-4 md:mt-6 text-lg md:text-xl text-blue-950 leading-relaxed">
                 En Qanet, hemos estado trabajando durante más de 26 años para brindar soluciones tecnológicas a las
@@ -20,7 +20,7 @@
 
     <section class="w-full py-16 bg-white">
         <div class="max-w-6xl mx-auto px-6 pb-24">
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center md:my-10">
                 <span class="text-blue-300 text-xs font-semibold">CONOCE A CADA UNO DE NOSOTROS</span>
                 <h2 class="text-3xl font-bold text-blue-950 text-center mb-12">SOMOS QANET</h2>
             </div>
