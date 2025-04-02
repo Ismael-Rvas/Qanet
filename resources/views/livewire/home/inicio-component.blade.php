@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <section class="bg-gradient-to-t from-white to-transparent w-full mt-24">
+    <section class="bg-gradient-to-b from-transparent to-white w-full mt-24">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center p-16">
             <div class="grid grid-cols-2 gap-4">
                 <img src="{{ asset('images/analisisDatos.jpg') }}" class="rounded-lg shadow-md"
@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section class="w-full py-16 bg-gradient-to-b from-white  via-slate-100 to-transparent">
+    <section class="w-full py-16 bg-white">
         <div class="max-w-6xl mx-auto px-6 pb-24">
             <span class="text-blue-300 text-xs font-semibold">EXCELENCIA Y CALIDAD EN CADA SOLUCIÓN</span>
             <h2 class="text-3xl font-bold text-blue-950 text-start mb-12">Nuestros Servicios</h2>
@@ -95,10 +95,7 @@
         <div class="max-w-6xl mx-auto px-6">
             <span class="text-blue-300 text-xs font-semibold">OPINIONES</span>
             <h2 class="text-3xl font-bold text-blue-950 text-start mb-12">Lo que dicen de nosotros</h2>
-
-            <h4>OPINIONES SACAR DE API DE GOOGLE</h4>
+            <x-opinion-card />
         </div>
     </section>
-
-
 </div>

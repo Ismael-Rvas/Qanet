@@ -44,6 +44,14 @@
                         class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'servicios' ? 'text-blue-950 font-bold' : '' }}">
                         Servicios
                     </a>
+                </li>
+                <li>
+                    <a href="{{ route('clientes') }}"
+                        class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'clientes' ? 'text-blue-950 font-bold' : '' }}">
+                        Clientes
+                    </a>
+                </li>
+
                 <li>
                     <a href="{{ route('contacto') }}"
                         class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:p-0 {{ Route::currentRouteName() === 'contacto' ? 'text-blue-950 font-bold' : '' }}">
@@ -51,7 +59,6 @@
                     </a>
                 </li>
             </ul>
-
         </div>
     </div>
 </nav>
