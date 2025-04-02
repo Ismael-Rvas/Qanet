@@ -1,7 +1,7 @@
 <div class="min-h-screen w-screen flex flex-col items-center justify-center ">
     <section class="flex flex-col md:flex-row items-center p-6 md:p-12 max-w-6xl w-full">
         <div class="w-full md:w-1/2 md:pr-8 text-center md:text-left">
-            <h1 class="text-3xl md:text-6xl font-bold text-blue-950 leading-tight">
+            <h1 data-aos="fade-down" class="text-3xl md:text-6xl font-bold text-blue-950 leading-tight">
                 Soluciones inteligentes para tu empresa
             </h1>
             <p class="mt-4 md:mt-6 text-lg md:text-xl text-blue-950 leading-relaxed">
@@ -17,23 +17,20 @@
 
 
         <div class="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
-            <div class="swiper mySwiper w-full max-w-sm md:max-w-md rounded-lg shadow-md">
+            <div class="swiper mySwiper w-full max-w-sm md:max-w-md rounded-lg shadow-md border-none">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="{{ asset('images/tiendaQanet.jpg') }}" alt="Imagen 1"
-                            class="w-full h-auto rounded-lg">
+                            class="w-full h-full rounded-lg">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/ERP.jpg') }}" alt="Imagen 2" class="w-full h-auto rounded-lg">
+                        <img src="{{ asset('images/ERP.jpg') }}" alt="Imagen 2" class="w-full h-full rounded-lg">
                     </div>
                     <div class="swiper-slide">
                         <img src="{{ asset('images/tiendaQanet.jpg') }}" alt="Imagen 3"
-                            class="w-full h-auto rounded-lg">
+                            class="w-full h-full rounded-lg">
                     </div>
                 </div>
-                <div class="swiper-button-next hidden md:block"></div>
-                <div class="swiper-button-prev hidden md:block"></div>
-                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
@@ -41,9 +38,9 @@
     <section class="bg-gradient-to-b from-transparent to-white w-full mt-24">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center p-16">
             <div class="grid grid-cols-2 gap-4">
-                <img src="{{ asset('images/analisisDatos.jpg') }}" class="rounded-lg shadow-md"
+                <img data-aos="slide-right" src="{{ asset('images/analisisDatos.jpg') }}" class="rounded-lg shadow-md"
                     alt="Equipo Qanet en acción">
-                <img src="{{ asset('images/equipoQanet.jpg') }}" class="rounded-lg shadow-md md:mt-9"
+                <img data-aos="slide-left" src="{{ asset('images/equipoQanet.jpg') }}" class="rounded-lg shadow-md md:mt-9"
                     alt="Análisis y optimización de datos">
             </div>
 

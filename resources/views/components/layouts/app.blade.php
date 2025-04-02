@@ -14,7 +14,7 @@
 
     @include('components.layouts.partials.navbar')
 
-    <main class="overflow-x-hidden pt-28 md:pt-44">
+    <main data-aos="zoom-out-up" class="overflow-x-hidden pt-28 md:pt-44">
         @yield('content')
     </main>
 
