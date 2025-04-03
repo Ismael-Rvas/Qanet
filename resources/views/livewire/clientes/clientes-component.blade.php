@@ -45,4 +45,12 @@
             </div>
         </div>
     </section>
+
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <span class="text-blue-300 text-xs font-semibold">OPINIONES</span>
+            <h2 class="text-3xl font-bold text-blue-950 text-start mb-12">Lo que dicen de nosotros</h2>
+            <x-opinion-card />
+        </div>
+    </section>
 </div>
