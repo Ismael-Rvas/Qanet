@@ -1,17 +1,10 @@
 import './bootstrap';
-
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 import lottie from 'lottie-web';
 
-AOS.init({
-    once: true,
-    easing: 'ease-in-out',
-});
 
 document.addEventListener("readystatechange", () => {
     const loader = document.getElementById("loader");
@@ -59,8 +52,6 @@ document.addEventListener("readystatechange", () => {
 //     }, 500);
 // });
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
     new Swiper(".mySwiper", {
         loop: true,
@@ -71,5 +62,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
+AOS.init({
+    once: true,
+    easing: 'ease-in-out',
+});
 

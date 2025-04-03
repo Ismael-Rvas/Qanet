@@ -18,7 +18,7 @@
 
     @include('components.layouts.partials.navbar')
 
-    <main class="overflow-x-hidden pt-28 md:pt-44">
+    <main data-scroll-container class="overflow-x-hidden pt-28 md:pt-44">
         @yield('content')
     </main>
 
