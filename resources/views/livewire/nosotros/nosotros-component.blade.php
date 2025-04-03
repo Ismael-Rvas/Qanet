@@ -1,7 +1,8 @@
 <div class="min-h-screen w-screen flex flex-col items-center justify-center ">
-    <section class="flex flex-col md:flex-row items-center p-6 md:p-12 max-w-6xl w-full">
+    <section class="flex flex-col md:flex-row items-center p-6 pb-24 md:p-12 md:pt-24 md:pb-32 max-w-6xl w-full">
         <div class="w-full md:w-1/2 md:pr-8 text-center md:text-left">
-            <h1 class="text-3xl md:text-6xl font-bold text-blue-950 leading-tight">
+            <span data-aos="fade-down" data-aos-duration="1000" class="text-blue-300 text-xs font-semibold">HACEMOS TU NEGOCIO MÁS EFICIENTE</span>
+            <h1 class="text-4xl md:text-6xl font-bold text-blue-950 leading-tight">
                 Nuestro equipo
             </h1>
             <p class="mt-4 md:mt-6 text-lg md:text-xl text-blue-950 leading-relaxed">
