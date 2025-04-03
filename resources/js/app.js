@@ -67,3 +67,14 @@ AOS.init({
     easing: 'ease-in-out',
 });
 
+document.addEventListener('scroll', () => {
+    const progressBar = document.getElementById('progress-bar');
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPercent = (scrollTop / scrollHeight) * 100;
+
+    // Actualiza el offset del círculo para representar el progreso
+    const offset = 282.6 - (282.6 * scrollPercent) / 100;
+    progressBar.style.strokeDashoffset = offset;
+});
+

@@ -20,6 +20,7 @@
 
     <main data-scroll-container class="overflow-x-hidden pt-28 md:pt-44">
         @yield('content')
+    <x-bar-progress />
     </main>
 
     @include('components.layouts.partials.footer')
