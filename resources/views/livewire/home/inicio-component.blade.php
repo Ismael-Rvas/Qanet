@@ -1,7 +1,7 @@
 <div class="min-h-screen w-screen flex flex-col items-center justify-center ">
     <section class="flex flex-col md:flex-row items-center p-6 md:p-12 max-w-6xl w-full md:mb-28 md:mt-16">
         <div class="w-full md:w-1/2 md:pr-8 text-center md:text-left">
-            <span data-aos="fade-LEFT" data-aos-duration="1000" class="text-blue-300 text-xs font-semibold">ERP, SERVICIOS
+            <span data-aos="fade-left" data-aos-duration="1000" class="text-blue-300 text-xs font-semibold">ERP, SERVICIOS
                 ...</span>
             <h1 data-aos="fade-down" data-aos-duration="1000"
                 class="text-3xl md:text-6xl font-bold text-blue-950 leading-tight">
@@ -86,7 +86,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
-                    image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
+                    image="{{ asset('images/analisisDatos.jpg') }}" class="h-full"/>
                 <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
                     image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
                 <x-service-card title="Desarrollo Web" description="Creación de sitios y plataformas web innovadoras."
@@ -121,8 +121,7 @@
                     Partners acreditados</h2>
 
                 <p data-aos="fade-left" data-aos-duration="1000" class="text-lg text-gray-500">
-                    Somos partners acreditados de las mejores marcas del mercado. Esto nos permite ofrecer soluciones
-                    innovadoras y de alta calidad a nuestras clientes.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nihil veniam doloremque autem quae. Sint debitis autem aliquam possimus aut officiis saepe exercitationem commodi, minima vero deserunt magni laudantium quos.
                 </p>
             </div>
         </div>

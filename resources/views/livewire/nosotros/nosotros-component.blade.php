@@ -2,10 +2,10 @@
     <section class="flex flex-col md:flex-row items-center p-6 pb-24 md:p-12 md:pt-24 md:pb-32 max-w-6xl w-full">
         <div class="w-full md:w-1/2 md:pr-8 text-center md:text-left">
             <span data-aos="fade-down" data-aos-duration="1000" class="text-blue-300 text-xs font-semibold">HACEMOS TU NEGOCIO MÁS EFICIENTE</span>
-            <h1 class="text-4xl md:text-6xl font-bold text-blue-950 leading-tight">
+            <h1 data-aos="fade-up" data-aos-duration="1000" class="text-4xl md:text-6xl font-bold text-blue-950 leading-tight">
                 Nuestro equipo
             </h1>
-            <p class="mt-4 md:mt-6 text-lg md:text-xl text-blue-950 leading-relaxed">
+            <p data-aos="fade-left" data-aos-duration="1000" class="mt-4 md:mt-6 text-lg md:text-xl text-blue-950 leading-relaxed">
                 En Qanet, hemos estado trabajando durante más de 26 años para brindar soluciones tecnológicas a las
                 empresas.
                 Nuestra misión es ofrecer herramientas innovadoras y de alta calidad para que las empresas puedan
@@ -14,7 +14,7 @@
         </div>
 
         <div class="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
-            <img src="{{ asset('images/equipoQanet.jpg') }}" alt="Imagen de nosotros"
+            <img data-aos="slide-left" data-aos-duration="1200" src="{{ asset('images/equipoQanet.jpg') }}" alt="Imagen de nosotros"
                 class="w-full h-auto rounded-lg shadow-md">
         </div>
     </section>
@@ -22,8 +22,8 @@
     <section class="w-full py-16 bg-white">
         <div class="max-w-6xl mx-auto px-6 pb-24">
             <div class="flex flex-col items-center md:my-10">
-                <span class="text-blue-300 text-xs font-semibold">CONOCE A CADA UNO DE NOSOTROS</span>
-                <h2 class="text-3xl font-bold text-blue-950 text-center mb-12">SOMOS QANET</h2>
+                <span data-aos="fade-down" data-aos-duration="1000" class="text-blue-300 text-xs font-semibold">CONOCE A CADA UNO DE NOSOTROS</span>
+                <h2 data-aos="fade-up" data-aos-duration="1000" class="text-3xl font-bold text-blue-950 text-center mb-12">SOMOS QANET</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl px-6 pb-12">
 
