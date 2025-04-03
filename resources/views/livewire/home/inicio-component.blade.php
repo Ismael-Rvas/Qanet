@@ -1,13 +1,13 @@
 <div class="min-h-screen w-screen flex flex-col items-center justify-center ">
-    <section class="flex flex-col md:flex-row items-center p-6 md:p-12 max-w-6xl w-full">
+    <section class="flex flex-col md:flex-row items-center p-6 md:p-12 max-w-6xl w-full md:mb-28 md:mt-16">
         <div class="w-full md:w-1/2 md:pr-8 text-center md:text-left">
-            <h1 data-aos="fade-down" class="text-3xl md:text-6xl font-bold text-blue-950 leading-tight">
+            <h1 data-aos="fade-down" data-aos-duration="1000" class="text-3xl md:text-6xl font-bold text-blue-950 leading-tight">
                 Soluciones inteligentes para tu empresa
             </h1>
-            <p class="mt-4 md:mt-6 text-lg md:text-xl text-blue-950 leading-relaxed">
+            <p data-aos="slide-up" data-aos-duration="1200" class="mt-4 md:mt-6 text-lg md:text-xl text-blue-950 leading-relaxed">
                 <b>Más de 26 años</b> creando soluciones a medida.
             </p>
-            <div class="mt-6 md:mt-8">
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-back" data-aos-delay="200" class="mt-6 md:mt-8">
                 <a href="{{ route('contacto') }}"
                     class="bg-blue-700 text-white text-lg md:text-xl font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-800 transition">
                     ¡Cuéntanos tu caso!
@@ -38,22 +38,22 @@
     <section class="bg-gradient-to-b from-transparent to-white w-full mt-24">
         <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center p-16">
             <div class="grid grid-cols-2 gap-4">
-                <img data-aos="slide-right" src="{{ asset('images/analisisDatos.jpg') }}" class="rounded-lg shadow-md"
+                <img data-aos="fade-right" data-aos-duration="1500" src="{{ asset('images/analisisDatos.jpg') }}" class="rounded-lg shadow-md"
                     alt="Equipo Qanet en acción">
-                <img data-aos="slide-left" src="{{ asset('images/equipoQanet.jpg') }}" class="rounded-lg shadow-md md:mt-9"
+                <img data-aos="fade-left" data-aos-duration="1500" src="{{ asset('images/equipoQanet.jpg') }}" class="rounded-lg shadow-md md:mt-9"
                     alt="Análisis y optimización de datos">
             </div>
 
             <div class="space-y-6">
-                <span class="text-blue-300 text-xs font-semibold">LAS MEJORES SOLUCIONES DEL MERCADO</span>
-                <h2 class="text-3xl font-bold text-blue-950">Más de 26 años impulsando la transformación digital</h2>
-                <p class="text-lg text-gray-500">
+                <span data-aos="fade-down" data-aos-duration="1000" class="text-blue-300 text-xs font-semibold">LAS MEJORES SOLUCIONES DEL MERCADO</span>
+                <h2 data-aos="fade-up" data-aos-duration="1000"class="text-3xl font-bold text-blue-950">Más de 26 años impulsando la transformación digital</h2>
+                <p data-aos="fade-right" data-aos-duration="1000" class="text-lg text-gray-500">
                     En <strong>Qanet ERP</strong>, llevamos más de veintiséis años ayudando a empresas a optimizar sus
                     procesos con soluciones tecnológicas. Nuestra misión es ofrecer herramientas que faciliten la toma
                     de decisiones y mejoren la productividad.
                 </p>
 
-                <P class="text-lg text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+                <P data-aos="fade-left" data-aos-duration="1000" class="text-lg text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
                     consectetur facilis, vel aperiam nisi alias possimus rem debitis odit non nam fugit, eligendi
                     tenetur delectus cum exercitationem asperiores veritatis commodi?</P>
 

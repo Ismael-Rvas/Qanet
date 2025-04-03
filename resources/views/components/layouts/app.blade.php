@@ -10,11 +10,15 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-cover bg-center bg-fixed bg-no-repeat text-gray-900" style="background-image: url('{{ asset('images/fondoWeb.jpg') }}');">
+<body class="bg-cover bg-center bg-fixed bg-no-repeat text-gray-900"
+    style="background-image: url('{{ asset('images/fondoWeb.jpg') }}');">
+
+    <div id="loader" class="fixed inset-0 flex items-center justify-center bg-white z-50">
+    </div>
 
     @include('components.layouts.partials.navbar')
 
-    <main data-aos="zoom-out-up" class="overflow-x-hidden pt-28 md:pt-44">
+    <main class="overflow-x-hidden pt-28 md:pt-44">
         @yield('content')
     </main>
 
