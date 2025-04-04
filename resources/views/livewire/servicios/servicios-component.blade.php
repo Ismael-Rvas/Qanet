@@ -72,12 +72,18 @@
                 Servicios Destacados
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <x-service-card title="Consultoría Tecnológica" description="Te ayudamos a encontrar las mejores soluciones para tu empresa." image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
-                <x-service-card title="Gestión ERP" description="Optimización integral para todos los procesos de tu negocio." image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
-                <x-service-card title="Desarrollo Web" description="Creación de plataformas adaptadas a tus necesidades." image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
-                <x-service-card title="Análisis de Datos" description="Transforma la información en decisiones estratégicas." image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
-                <x-service-card title="Ciberseguridad" description="Protege tu negocio contra cualquier amenaza digital." image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
-                <x-service-card title="Marketing Digital" description="Impulsa tu marca con estrategias digitales innovadoras." image="{{ asset('images/analisisDatos.jpg') }}" class="h-full" />
+                <x-service-card title="Gestión ERP"
+                    description="Optimización integral para todos los procesos de tu negocio."
+                    image="{{ asset('images/erp.png') }}" />
+                <x-service-card title="Desarrollo Web"
+                    description="Creación de plataformas adaptadas a tus necesidades."
+                    image="{{ asset('images/desarrolloWep.png') }}" />
+                <x-service-card title="Análisis de Datos"
+                    description="Transforma la información en decisiones estratégicas."
+                    image="{{ asset('images/analisisDatos.png') }}" />
+                <x-service-card title="Ciberseguridad"
+                    description="Protege tu negocio contra cualquier amenaza digital."
+                    image="{{ asset('images/ciberseguridad.png') }}" />
             </div>
         </div>
     </section>

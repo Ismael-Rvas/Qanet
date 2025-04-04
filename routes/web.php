@@ -22,6 +22,10 @@ Route::get('/contacto', function () {
     return view('contacto');
 })->name('contacto');
 
+Route::get('/aviso-legal', function () {
+    return view('components.aviso-legal');
+})->name('aviso-legal');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

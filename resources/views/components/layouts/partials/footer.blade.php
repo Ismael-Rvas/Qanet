@@ -42,7 +42,7 @@
                     </h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline">Aviso Legal</a>
+                            <a href="{{ route('aviso-legal') }}" class="hover:underline">Aviso Legal</a>
                         </li>
                         <li>
                             <a href="#" class="hover:underline">Política de Privacidad</a>

@@ -39,7 +39,7 @@
                     <div class="flex items-center space-x-3">
                         <span class="text-blue-800"><i class="fas fa-envelope"></i></span>
                         <a href="mailto:contacto@tuempresa.com"
-                            class="text-blue-800 hover:underline">email@gmail.com</a>
+                            class="text-blue-800 hover:underline">info@qanet.es</a>
                     </div>
 
                 </div>
